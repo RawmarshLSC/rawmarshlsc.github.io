@@ -81,3 +81,21 @@ footer {
         max-width: 100px;
     }
 }
+#contact{
+    background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
+ color: black;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
