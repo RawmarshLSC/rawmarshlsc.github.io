@@ -41,8 +41,7 @@ html,body {
 .padding img {
     width: 100%;
 }
-.col-sm-6 {
-    text-align: center;
+.about {
     vertical-align: middle;
 }
 #fixed {
