@@ -28,7 +28,7 @@ html,body {
 .landing-text {
  display: table-cell;
  text-align: center;
- vertical-align: middle;
+ vertical-align: center;
  color: black;
 }
 .landing-text h1 {
