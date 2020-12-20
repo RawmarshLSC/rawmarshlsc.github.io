@@ -37,7 +37,7 @@ html,body {
 }
 .padding {
     padding: 80px 0;
-}
+    vertical-align: middle;
 .padding img {
     width: 100%;
 }
