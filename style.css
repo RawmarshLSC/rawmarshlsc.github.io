@@ -42,7 +42,7 @@ html,body {
 .padding img {
     width: 100%;
 }
-.about {
+.row {
     vertical-align: middle;
 }
 #fixed {
