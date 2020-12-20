@@ -82,7 +82,7 @@ footer {
         max-width: 100px;
     }
 }
-#contact {
+#gallary {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
@@ -99,4 +99,115 @@ footer {
 .landing-text h1 {
     font-size: 500%;
     font-weight: 700%;
+}
+.padding {
+    padding: 80px 0;
+    vertical-align: middle;
+}
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url(images/pool2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color:  #00a2d9;
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none; 
+}
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px){
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}#contact {
+    background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
+ color: black;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
+.padding {
+    padding: 80px 0;
+    vertical-align: middle;
+}
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url(images/pool2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color:  #00a2d9;
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none; 
+}
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px){
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
 }
