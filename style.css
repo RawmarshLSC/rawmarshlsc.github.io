@@ -42,9 +42,6 @@ html,body {
 .padding img {
     width: 100%;
 }
-.row {
-    vertical-align: middle;
-}
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
     display: table;
