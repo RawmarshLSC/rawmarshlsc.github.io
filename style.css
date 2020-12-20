@@ -171,6 +171,9 @@ footer {
 .padding img {
     width: 100%;
 }
+.address {
+    font-size: 25px;
+}
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
     display: table;
