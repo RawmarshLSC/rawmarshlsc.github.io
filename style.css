@@ -28,7 +28,7 @@ html,body {
 .landing-text {
  display: table-cell;
  text-align: center;
- vertical-align: center;
+ vertical-align: middle;
  color: black;
 }
 .landing-text h1 {
@@ -37,6 +37,7 @@ html,body {
 }
 .padding {
     padding: 80px 0;
+    vertical-align: middle;
 }
 .padding img {
     width: 100%;
