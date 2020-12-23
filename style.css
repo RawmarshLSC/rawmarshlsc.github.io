@@ -173,6 +173,7 @@ footer {
 }
 .address {
     font-size: 30px;
+    
 }
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
@@ -204,6 +205,9 @@ footer {
 @media (max-width: 768px){
     .landing-text h1 {
         font-size: 300%;
+    }
+    .address {
+        font-size: 25px;
     }
     .fa {
         font-size: 20px;
