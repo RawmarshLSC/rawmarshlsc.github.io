@@ -29,7 +29,7 @@ html,body {
  display: table-cell;
  text-align: center;
  vertical-align: middle;
- color: #00a2d9;
+ color: red;
 }
 .landing-text h1 {
     font-size: 500%;
