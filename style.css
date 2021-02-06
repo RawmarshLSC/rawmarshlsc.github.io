@@ -12,10 +12,10 @@ html,body {
     padding: 0 15px 5px;
 }
 .navbar-default .navbar-nav li a {
-    color: #d5d5d5;
+    color:#fff;
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
-    color: #fff;
+    color: red;
 }
 #home {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
