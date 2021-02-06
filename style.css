@@ -36,6 +36,9 @@ html,body {
     font-size: 500%;
     font-weight: 700%;
 }
+.landing-text h3{
+    color: red;
+}
 .padding {
     padding: 80px 0;
     vertical-align: middle;
