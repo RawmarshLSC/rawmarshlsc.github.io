@@ -34,7 +34,7 @@ html,body {
 .landing-text h1 {
     font-size: 500%;
     font-weight: 700%;
-    color: #00a2d9;
+    color: red;
 }
 .padding {
     padding: 80px 0;
