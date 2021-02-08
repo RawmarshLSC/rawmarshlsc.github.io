@@ -46,7 +46,9 @@ html,body {
 .padding img {
     width: 100%;
 }
-
+.about {
+    padding-top: 10px;
+}
 .info text {
     vertical-align: middle;
 }
