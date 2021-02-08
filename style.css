@@ -47,8 +47,7 @@ html,body {
     width: 100%;
 }
 .info text {
-    align-content: center;
-    vertical-align: middle;
+    vertical-align: super;
 }
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
