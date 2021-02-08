@@ -48,7 +48,7 @@ html,body {
 }
 .info text {
     padding: 10;
-    vertical-align: super;
+    vertical-align: text-bottom;
 }
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
