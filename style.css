@@ -46,6 +46,9 @@ html,body {
 .padding img {
     width: 100%;
 }
+.col-sm-6a {
+    padding: 10px,10px,15px,15px;
+}
 .info text {
     vertical-align: middle;
 }
