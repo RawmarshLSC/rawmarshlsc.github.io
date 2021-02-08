@@ -47,7 +47,7 @@ html,body {
     width: 100%;
 }
 .info text {
-    padding: 10;
+    padding: 10px
     vertical-align: text-bottom;
 }
 #fixed {
