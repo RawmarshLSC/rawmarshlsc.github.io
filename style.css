@@ -137,7 +137,7 @@ footer {
     color: white;
 }
 .fa:hover {
-    color: #d5d5d5;
+    color: red;
     text-decoration: none; 
 }
 .icon {
