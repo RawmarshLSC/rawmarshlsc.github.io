@@ -146,7 +146,7 @@ footer {
 .icon {
     max-width: 200px;
 }
-.port-item {
+.col-lg-4 {
     margin: 0;
     position: relative;
 }
