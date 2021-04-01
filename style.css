@@ -153,9 +153,9 @@ footer {
 .port-desc {
     position: absolute;
     z-index: 100;
-    bottom: 1em;
-    left: 0;
-    right: 0;
+    bottom: 2em;
+    left: 3em;
+    right: 3em;
     color: white;
     background: rgba(0,0,0,.75);
     padding-top: 1em;
