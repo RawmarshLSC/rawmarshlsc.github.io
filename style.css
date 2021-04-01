@@ -161,7 +161,15 @@ footer {
     background: rgba(0,0,0,.75);
     padding-top: 1em;
 }
-
+.button {
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px ;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
 @media (max-width: 768px){
     .landing-text h1 {
         font-size: 300%;
