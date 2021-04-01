@@ -159,7 +159,7 @@ footer {
     right: 3em;
     color: white;
     background: rgba(0,0,0,.75);
-    padding-top: 1em;
+    padding: 1em;
 }
 .button {
     display: inline-block;
