@@ -117,6 +117,9 @@ footer {
 .padding img {
     width: 100%;
 }
+.img-responsive {
+    padding-top: 10px;
+}
 #fixed {
     background: url(images/pool2.jpg) no-repeat center center fixed;
     display: table;
