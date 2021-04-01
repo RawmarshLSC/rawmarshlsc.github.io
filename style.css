@@ -146,6 +146,13 @@ footer {
 .icon {
     max-width: 200px;
 }
+.port-item {
+    margin: 0;
+    position: relative;
+}
+.port-desc {
+    position: absolute;
+}
 
 @media (max-width: 768px){
     .landing-text h1 {
