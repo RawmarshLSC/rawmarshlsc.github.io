@@ -17,6 +17,12 @@ html,body {
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
     color: red;
 }
+.view{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+
+}
 #home {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
     display: table;
@@ -301,3 +307,6 @@ footer {
         max-width: 100px;
     }
 }
+
+
+
