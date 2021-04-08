@@ -19,9 +19,9 @@ html,body {
 }
 .view{
     position: absolute;
-    top: 150px;
-    left: 350px;
-
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 #home {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
@@ -97,8 +97,9 @@ footer {
         padding-top: 5%;
         max-width: 100px;
     }
+   
 }
-#gallary {
+#gallery {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
@@ -188,7 +189,29 @@ footer {
         padding-top: 5%;
         max-width: 100px;
     }
-}#contact {
+    .button-small {
+        display: inline-block;
+        font-size: .9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-width: 1px;
+        border-style: solid;
+        padding: .1em .75em;
+    }
+    .port-desc {
+        text-align: center;
+        font-size: 5PX;
+        position: relative;
+        z-index: 1;
+        bottom: .2em;
+        left: .1em;
+        right: .1em;
+        color: white;
+        background: rgba(0,0,0,.75);
+        padding: .2em;
+    }
+}
+#contact {
     background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
@@ -307,6 +330,59 @@ footer {
         max-width: 100px;
     }
 }
-
-
-
+#c-19form {
+    background: url(images/optimized-pbd_0297-aston.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
+ color: black;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
+.padding {
+    padding: 80px 0;
+    vertical-align: middle;
+}
+.padding img {
+    width: 100%;
+}
+.address {
+    padding-top: 75px;
+    font-size: 30px;
+    
+}
+#fixed {
+    background: url(images/pool2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color:  #00a2d9;
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none; 
+}
+.icon {
+    max-width: 200px;
+}
