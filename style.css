@@ -338,6 +338,9 @@ footer {
     width: 100%;
     background-size: cover;
 }
+.googleform{
+       text-align: center;
+}
 .landing-text {
  display: table-cell;
  text-align: center;
@@ -385,7 +388,4 @@ footer {
 }
 .icon {
     max-width: 200px;
-}
-.googleform{
-    text-align: center;
 }
