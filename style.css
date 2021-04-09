@@ -179,7 +179,7 @@ footer {
 }
 @media (max-width: 768px){
     .landing-text h1 {
-        font-size: 300%;
+        font-size: 200%;
         font-weight: 300%;
     }
     .fa {
