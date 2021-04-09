@@ -159,10 +159,10 @@ footer {
 }
 .port-desc {
     text-align: center;
-    position: absolute;
+    position: relative;
     z-index: 100;
-    bottom: 2em;
-    left: 3em;
+    bottom: 0em;
+    left: 0em;
     right: 3em;
     color: white;
     background: rgba(0,0,0,.75);
@@ -203,7 +203,7 @@ footer {
         font-size: 5PX;
         position: relative;
         z-index: 1;
-        bottom: .2em;
+        bottom: 0em;
         left: .1em;
         right: .1em;
         color: white;
