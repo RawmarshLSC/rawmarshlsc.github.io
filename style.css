@@ -390,3 +390,63 @@ footer {
 .icon {
     max-width: 200px;
 }
+#link
+body{
+    background: blue;
+    color: #fff;
+    font-family: 'open Sans','sans-serif';
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+img{
+    border-radius: 25%;
+
+}
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+
+}
+.profile-name {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+    
+}
+
+.bottom-text{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+a:hover {
+    color: blue;
+    background: white;
+}
