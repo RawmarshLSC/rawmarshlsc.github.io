@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+}
+.Profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 25%;
+
+}
+
+.profile-name{
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-width: 2px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    transition: color 1s;
+
+}
+a:hover{
+    color: blue;
+    background-color: red;
+}
