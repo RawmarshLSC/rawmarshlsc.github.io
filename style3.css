@@ -1,0 +1,109 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: #00a2d9;
+    padding: 1% 0;
+    text-align: center;
+}
+.navbar-text{
+    min-height: 45px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#home {
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+background-size: cover;
+}
+
+.padding {
+    padding: 100px 100px;
+    vertical-align: middle;
+}        
+.column {
+    float: left;
+    width: 50%;
+    padding: 5%;
+    font-size: 20px;
+}
+          
+          /* Clear floats after the columns */
+.row:after {
+     content: "";
+    display: table;
+    clear: both;
+}
+.button{
+    color: black;
+    display: inline-block;
+    background-color: silver;
+    width: 50%;
+    padding: 8px 16px;
+    border-radius: 12%;
+    text-align: center;
+    border-color: black;
+
+}
+.a{
+    color: black;
+    display: inline-block;
+    background-color: silver;
+    width: 50%;
+    padding: 8px 16px;
+    border-radius: 12%;
+    text-align: center;
+    border-color: black;
+}
+@media (max-width: 767px){
+    #home {
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 90%;
+        background-size: cover;
+        }
+        
+        .padding {
+            padding: 70px 50px;
+            vertical-align: middle;
+        }        
+        .column {
+            float: left;
+            width: 50%;
+            padding: 1%;
+            font-size: 15px;
+        }
+                  
+                  /* Clear floats after the columns */
+        .row:after {
+             content: "";
+            display: table;
+            clear: both;
+        }
+        .button{
+            color: black;
+            display: inline-block;
+            background-color: silver;
+            width: 49%;
+            padding: 8px 8px;
+            border-radius: 12%;
+            text-align: center;
+            border-color: black;
+        
+        }
+        .a{
+            color: black;
+            display: inline-block;
+            background-color: silver;
+            width: 50%;
+            padding: 8px 16px;
+            border-radius: 12%;
+            text-align: center;
+}
+}
