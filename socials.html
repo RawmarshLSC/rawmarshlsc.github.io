@@ -17,6 +17,8 @@
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
     </script>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0&appId=1290097234737052&autoLogAppEvents=1" nonce="RuJGNIuH"></script>  
 </head>
 
 <body>
@@ -52,13 +54,16 @@
 <div class="padding">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 text-center vertical-middle">
+      <div class="col-sm-6">
         <a class="twitter-timeline" data-height="700" data-dnt="true" href="https://twitter.com/RawmarshLife?ref_src=twsrc%5Etfw">Tweets by RawmarshLife</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-sm-6">
+        <div class="fb-page" data-href="https://www.facebook.com/RawmarshLife" data-tabs="timeline" data-width="500" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/RawmarshLife" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RawmarshLife">Rawmarsh LSC</a></blockquote></div>  
+      </div>
       </div>
     </div>
 
   </div>
-</div>
 <div class="padding">
   <div class="container">
     <div class="row">
@@ -91,11 +96,33 @@
 <div class="padding">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 text-center">
+      <div class="col-sm-6 text-center">
         <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
       </div>    
+    <div class="col-sm-6 text-center">
+      <h2>contact Form</h2>
+      <br>
+            <p class="lead">We would love for you to join us. To get in touch please fill out our form and someone will get back to you shortly.
+            </p>
+      
+      <form method="post" autocomplete="off" name="google-sheet">
+        <div class="form-group">
+            <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
+        </div>
+        <div class="form-group">
+            <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
+        </div>
+        <div class="form-group">
+            <input type="text" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+        </div>
+        <div class="form-group">
+          <input type="text" name="message" class="form-control" placeholder="Message (Optional)" value="" required=""/>
+      </div>
+        <div class="form-group">
+            <input type="submit" name="submit" class="btnSubmit btn-block" value="submit form"/>
+        </div>
+    </form>
     </div>
-
   </div>
 </div>
 
@@ -104,33 +131,7 @@
     <div class="col-sm-4">
         <h4>Contact Us</h4>
         <br>
-        <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "108423664996948");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+        
     </div>
     <div class="col-sm-4">
         <h4>Connect</h4>
@@ -146,6 +147,19 @@
 
 </footer>
 
+<!--script code for contact form-->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxUn2liWC-iprEJwLepHJ72YecodKKOqheSEOqAddTXDG9bH80P01Oq/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+      
+  })
+</script>
 </body>
 </html>
 
