@@ -88,6 +88,9 @@ footer {
 .icon1{
     max-width: 75px;
 }
+.gform{
+    padding-top: 200px;
+}
 
 @media (max-width: 768px){
     .landing-text h1 {
