@@ -84,6 +84,9 @@ footer {
 .icon {
     max-width: 200px;
 }
+.icon1{
+    max-width: 75px;
+}
 
 @media (max-width: 768px){
     .landing-text h1 {
