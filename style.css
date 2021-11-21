@@ -69,8 +69,9 @@ html,body {
 footer {
     width: 100%;
     background-color:  #00a2d9;
-    padding: 5% 5% 10% 5%;
+    padding: 1px 1px 1px 1px;
     color: white;
+    
 }
 .fa {
     padding: 15px;
@@ -141,7 +142,7 @@ footer {
 footer {
     width: 100%;
     background-color:  #00a2d9;
-    padding: 5% 5% 10% 5%;
+    padding: 1px 1px 1px 1px;
     color: white;
 }
 .fa {
@@ -256,7 +257,7 @@ footer {
 footer {
     width: 100%;
     background-color:  #00a2d9;
-    padding: 5% 5% 5% 5%;
+    padding: 1px 1px 1px 1px;
     color: white;
 }
 .fa {
@@ -363,8 +364,8 @@ footer {
     width: 100%;
 }
 .address {
-    padding-top: 75px;
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 15px;
     
 }
 #fixed {
@@ -378,7 +379,7 @@ footer {
 footer {
     width: 100%;
     background-color:  #00a2d9;
-    padding: 5% 5% 10% 5%;
+    padding: 1px 1px 1px 1px;
     color: white;
 }
 .fa {
@@ -391,6 +392,12 @@ footer {
     text-decoration: none; 
 }
 .icon {
-    max-width: 200px;
+    padding: 50px;
+    max-width: 300px;
 }
-
+.social{
+    padding: 50px;
+}
+.map{
+    padding: 30px;
+}
