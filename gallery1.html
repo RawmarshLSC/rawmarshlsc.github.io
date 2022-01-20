@@ -6,21 +6,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="style.css" rel="stylesheet"/>
+      <link href="gallery.css" rel="stylesheet"/>
   
 </head>
 
 <body>
-
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="images/Club Logo 2.jpg"></a>
-      </div>
-  </div>
-</nav>
 
 <div id="gallery">
     <div class="landing-text">
@@ -29,64 +19,136 @@
 
     </div>
 </div>
-<div class="padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo21.html"><img src="facebook/facebook pics (21).jpg" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo22.html"><img src="facebook/facebook pics (22).jpg" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo23.html"><img src="facebook/facebook pics (23).jpg" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo45.html"><img src="facebook/facebook pics (45).jpg" class="img-responsive"></a> 
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo46.html"><img src="facebook/facebook pics (46).jpg" class="img-responsive"></a>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <a href="photo47.html"><img src="facebook/facebook pics (47).jpg" class="img-responsive"></a>
-      </div>
+
+<div class="portfolio">
+    <!--image 1-->
+    <div id="portfolio-row-1" class="portfolio__item">
+        <img src="facebook/facebook pics (21).jpg" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+            <h3 class="portfolio__title">Wearing a tartan hat</h3>
+           <a href="#portfolio-item-1" class="button">view large</a>
+        </div>
+    </div>
+<!--image 2-->
+    <div id="portfolio-row-1" class="portfolio__item">
+        <img src="facebook/facebook pics (22).jpg" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+            <h3 class="portfolio__title">Edinburgh Castle</h3>
+       <a href="#portfolio-item-2" class="button">view large</a>
+        </div>
     </div>
 
-  </div>
+ <!--image 3-->
+    <div id="portfolio-row-1" class="portfolio__item">
+    <img src="facebook/facebook pics (23).jpg" alt="Andy Jennings wearing a hat">
+        <div class="portfolio__desc">
+            <h3 class="portfolio__title">Bagpipes player</h3>
+            <a href="#portfolio-item-3" class="button">view large</a>
+        </div>
+    </div>  
+<!--image 4-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="facebook/facebook pics (45).jpg" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Group photo one</h3>
+                <a href="#portfolio-item-4" class="button">view large</a>
+            </div>
+    </div>
+<!--image 5-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="facebook/facebook pics (46).jpg" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Group photo two</h3>
+                <a href="#portfolio-item-5" class="button">view large</a>
+            </div>
+    </div>
+<!--image 6-->
+    <div id="portfolio-row-2" class="portfolio__item">
+        <img src="facebook/facebook pics (47).jpg" alt="Andy Jennings wearing a hat">
+            <div class="portfolio__desc">
+                <h3 class="portfolio__title">Group photo three</h3>
+                <a href="#portfolio-item-6" class="button">view large</a>
+            </div>
+    </div>    
 </div>
-<div class="padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href="gallery.html">Back to Gallery</a>
+
+<!--The portfolio lightboxes-->
+<div class="portfolio-lightboxes">
+    <!--lightbox 1-->
+    <div id="portfolio-item-1" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-6" class="previous"></a>
+            <a href="#portfolio-item-2"class="next"></a>
+            <img src="facebookfull/facebookfull (21).jpg">
+            <h3 class="portfolio-lightbox__title">Group photo two</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 2-->
+    <div id="portfolio-item-2" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-1" class="previous"></a>
+            <a href="#portfolio-item-3"class="next"></a>
+            <img src="facebook/facebook pics (22).jpg">
+            <h3 class="portfolio-lightbox__title">Group photo three</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 3-->
+    <div id="portfolio-item-3" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-1" class="close"></a>
+            <a href="#portfolio-item-2" class="previous"></a>
+            <a href="#portfolio-item-4"class="next"></a>
+            <img src="facebook/facebook pics (23).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 4-->
+    <div id="portfolio-item-4" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-3" class="previous"></a>
+            <a href="#portfolio-item-5"class="next"></a>
+            <img src="facebook/facebook pics (45).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 5-->
+    <div id="portfolio-item-5" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-4" class="previous"></a>
+            <a href="#portfolio-item-6"class="next"></a>
+            <img src="facebook/facebook pics (46).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+    <!--lightbox 6-->
+    <div id="portfolio-item-6" class="portfolio-lightbox">
+        <div class="portfolio-lightbox__content">
+            <a href="#portfolio-row-2" class="close"></a>
+            <a href="#portfolio-item-5" class="previous"></a>
+            <a href="#portfolio-item-1"class="next"></a>
+            <img src="facebook/facebook pics (47).jpg">
+            <h3 class="portfolio-lightbox__title">Andy Jennings wearing a tartan hat</h3>
+            <p class="portfolio-lightbox__body">hi</p>
+        </div>
+    </div>
+</div>
+
+  
+
+
+      <div class="back-page">
+          <a href="gallery.html" class="button">Back to Gallery</a>
       </div>
-    </div>
-  </div>
-</div>
-
-<div id="fixed">
-</div>
-
-<footer class="container-fluid text-center vertical-middle">
-  <div class="row">
-    <div class="col-sm-4">
-        <h4>Contact Us</h4>
-        <br>
-        <h4><a href="Contact Us.html" class="fa">Find more infomation on our contact page</a></h4>
-    </div>
-    <div class="col-sm-4">
-        <h4>Connect</h4>
-        <a href="https://www.facebook.com/groups/rawmarshlife/" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/RawmarshLife?s=09" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/rawmarshlife/" class="fa fa-instagram"></a>
-        <a href="https://t.me/joinchat/VTqA83_VuOhwPJM2" class="fa fa-telegram"></a>
-    </div>
-    <div class="col-sm-4">
-      <img src="images/Club Logo 2.jpg" class="icon">
-    </div>
-  </div>
-
-</footer>
+    
 
 </body>
 </html>

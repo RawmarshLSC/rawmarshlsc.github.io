@@ -1,0 +1,238 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#gallery {
+    background: #00a2d9;
+    display: table;
+    height: 25%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+p:target{
+
+}
+.landing-text {
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
+ color: red;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
+.padding {
+    padding: 80px 0;
+    vertical-align: middle;
+}
+.padding img {
+    width: 100%;
+}
+.back-page {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px ;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+img {max-width: 100%;}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    padding: 3em;
+    background: #ccc;
+
+}
+.portfolio__item {
+    background: white;
+    
+}
+.portfolio__desc {
+    padding: 1em;
+}
+.portfolio__title {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+.portfolio-lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0,1);
+    transition: transform ease-in-out 700ms;
+
+}
+.portfolio-lightbox:target {
+    transform: scale(1,1);
+    
+}
+.portfolio-lightbox__content {
+    width: 80%;
+    background: black;
+    padding: 1em;
+    position: relative;
+    
+}
+.previous{
+    position: absolute;
+    width: 3em;
+    height: 2em;
+    background: red;
+    bottom: 25em;
+    left: 3em;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.previous::after{
+    content: '<';
+    color: black;
+    font-weight: 1000;
+}
+.next {
+    position: absolute;
+    width: 3em;
+    height: 2em;
+    background: red;
+    bottom: 25em;
+    right: 3em;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next::after{
+    content: '>';
+    color: black;
+    font-weight: 1000;
+    
+}
+.close {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background: red;
+    bottom: 1em;
+    right: 1em;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close::after {
+    content: 'close';
+    color: white;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px){
+    .landing-text h1 {
+        font-size: 200%;
+        font-weight: 300%;
+    }
+   
+    
+    .button-small {
+        display: inline-block;
+        font-size: .9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-width: 1px;
+        border-style: solid;
+        padding: .1em .75em;
+    }
+    .port-desc {
+        text-align: center;
+        font-size: 8PX;
+        position: relative;
+        z-index: 1;
+        bottom: 0em;
+        left: .1em;
+        right: .1em;
+        color: white;
+        background: rgba(0,0,0,.75);
+        padding: .2em;
+    }
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1em;
+        padding: 3em;
+        background: #ccc;
+    }
+    .close {
+        position: absolute;
+        width: 1.5em;
+        height: 1.5em;
+        background: red;
+        bottom: .5em;
+        right: .5em;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .close::after {
+        content: 'X';
+        color: white;
+        font-weight: 300;
+    }
+    .previous{
+        position: absolute;
+        width: 3em;
+        height: 2em;
+        background: red;
+        bottom: 15em;
+        left: -1em;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .previous::after{
+        content: '<';
+        color: black;
+        font-weight: 500;
+    }
+    .next {
+        position: absolute;
+        width: 3em;
+        height: 2em;
+        background: red;
+        bottom: 15em;
+        right: -1em;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .next::after{
+        content: '>';
+        color: black;
+        font-weight: 500;
+        
+    }
+}
