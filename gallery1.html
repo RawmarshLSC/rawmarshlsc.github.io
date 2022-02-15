@@ -7,11 +7,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
       <link href="gallery.css" rel="stylesheet"/>
-  
+  <script>
+      window.addEventListener("load", ()=>{
+          const loader = document.querySelector(".loader");
+
+         loader.classList.add("loader--hidden");
+         loader.addEventListener("transitionend",()=>{
+             document.body.removeChild(loader);
+         });
+
+      });
+      
+  </script>
 </head>
 
 <body>
-
+<div class="loader"></div>
 <div id="gallery">
     <div class="landing-text">
     <h1>Edinburgh</h1>
