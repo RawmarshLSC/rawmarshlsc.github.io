@@ -1,50 +1,97 @@
 body {
-    background-color: #0ddade;
-}
-.Profile{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    height: auto;
-    max-width: 200px;
-    border-radius: 25%;
-
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 11, 11);
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
-.profile-name{
-    text-align: center;
-    padding: 30px;
-    font-size: 28px;
-
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
 }
-.links{
-    text-align: center;
-    margin-top: 30px;
-    border: 1px solid red;
-    border-width: 2px;
 
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
 
-    border-radius: 25px;
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: rgb(0,0,0);
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
     font-size: 20px;
+    margin-bottom: 30px;
+}
 
-}
-ion-icon{
-        margin-top: 2;
-        margin-left: 10;
-       
-}
-a{
+a {
     text-decoration: none;
-    color: blue;
-    transition: color 1s;
-
+    color: rgb(240,240,240);
 }
-a:hover{
-    color: blue;
-    background-color: red;
+
+.tile {
+    width: 100%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
 }
